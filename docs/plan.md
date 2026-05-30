@@ -34,7 +34,7 @@ Constraints:
 
 All tables keyed to `auth.users` with **Row Level Security**.
 
-- **profiles** — `id (=auth.uid)`, `display_name`, `commission_pct numeric`, `currency text default 'PLN'`, `created_at`
+- **profiles** — `id (=auth.uid)`, `display_name`, `commission_pct numeric`, `currency text default 'USD'`, `created_at`
 - **services** — `id`, `user_id`, `name`, `price numeric`, `active bool default true`, `created_at`
 - **income_entries** — `id`, `user_id`, `service_id (fk)`, `provided_on date`, `price_snapshot numeric`, `commission_pct_snapshot numeric`, `amount_earned numeric`, `customer text null`, `note text null`, `source text default 'manual'`, `created_at`
 
