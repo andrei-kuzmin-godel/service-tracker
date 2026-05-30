@@ -66,8 +66,13 @@ supabase/
 
 See `docs/tasks/` for individual task files.
 
+> **Prerequisite:** Task 00 is a **manual, user-actioned** setup (create Supabase + Vercel
+> accounts, provision the project, apply the schema, record env vars). It must be done before
+> Task 02. See `docs/tasks/00-provisioning.md`.
+
 | # | Task |
 |---|---|
+| 00 | Provision Supabase & Vercel (manual, do first) |
 | 01 | Project scaffold & PWA config |
 | 02 | Supabase schema & migrations |
 | 03 | Auth (sign up / sign in / session) |
